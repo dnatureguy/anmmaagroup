@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anmmaa Group</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#">AG</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#subsidiaries">Subsidiaries</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-cta" onclick="document.querySelector('#contact').scrollIntoView({behavior:'smooth'})">Get in Touch</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <span class="eyebrow">Est. 2020 · Canada & Nigeria</span>
+      <h1>Anmmaa<br/><em>Group</em></h1>
+      <p class="hero-sub">Innovating across industries — from freight to film,<br/>design to digital commerce.</p>
+      <div class="hero-actions">
+        <a href="#subsidiaries" class="btn-primary">Our Companies</a>
+        <a href="#about" class="btn-ghost">Learn More</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-label">Who We Are</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>A diverse portfolio<br/>built for growth.</h2>
+          <p>Anmmaa Group is a parent company overseeing a portfolio of subsidiaries focused on transportation, design, cleaning, media, and e-commerce — bridging opportunities between Canada and Nigeria.</p>
+          <p>We believe that lasting value comes from smart diversification, operational excellence, and an unwavering commitment to the communities we serve.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num">6</span>
+            <span class="stat-label">Subsidiaries</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">2</span>
+            <span class="stat-label">Countries</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">5+</span>
+            <span class="stat-label">Industries</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">∞</span>
+            <span class="stat-label">Ambition</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUBSIDIARIES -->
+  <section id="subsidiaries" class="subsidiaries">
+    <div class="container">
+      <div class="section-label">Our Companies</div>
+      <h2 class="section-heading">Six pillars,<br/>one vision.</h2>
+
+      <div class="sub-grid">
+
+        <!-- Transport -->
+        <article class="sub-card sub-card--large">
+          <div class="sub-icon"><i class="fas fa-truck-moving"></i></div>
+          <div class="sub-tag">Logistics</div>
+          <h3>Anmmaa Transport</h3>
+          <p>The backbone of the Group's operations. We deliver freight between Canada and Nigeria, offer expedited and local moving services, airport transfers, and real-time cargo tracking.</p>
+          <ul class="sub-list">
+            <li>International freight shipping</li>
+            <li>Expedited delivery services</li>
+            <li>Airport pickup &amp; drop-off</li>
+            <li>Real-time shipment tracking</li>
+          </ul>
+          <a href="#contact" class="sub-link">Enquire <i class="fas fa-arrow-right"></i></a>
+        </article>
+
+        <!-- Designs -->
+        <article class="sub-card">
+          <div class="sub-icon"><i class="fas fa-pencil-ruler"></i></div>
+          <div class="sub-tag">Design</div>
+          <h3>Anmmaa Designs</h3>
+          <p>Interior design, architectural drawings, permits, project coordination, and mortgage advisory — from concept to completion.</p>
+          <div class="sub-contact">
+            <p><i class="fas fa-map-marker-alt"></i> 106 Nasir Cres, Maple, Ontario, L6A3B2</p>
+            <p><i class="fas fa-phone"></i> +1 (647) 701-6790 &nbsp;|&nbsp; +1 (416) 854-4424</p>
+          </div>
+          <a href="#contact" class="sub-link">Enquire <i class="fas fa-arrow-right"></i></a>
+        </article>
+
+        <!-- ProClean -->
+        <article class="sub-card">
+          <div class="sub-icon"><i class="fas fa-spray-can"></i></div>
+          <div class="sub-tag">Services</div>
+          <h3>Anmmaa ProClean</h3>
+          <p>Deep cleaning, office &amp; commercial cleaning, move-in/out, car detailing, pressure washing, and upholstery care.</p>
+          <a href="#contact" class="sub-link">Enquire <i class="fas fa-arrow-right"></i></a>
+        </article>
+
+        <!-- Sphere -->
+        <article class="sub-card">
+          <div class="sub-icon"><i class="fas fa-shopping-bag"></i></div>
+          <div class="sub-tag">E-Commerce</div>
+          <h3>Anmmaa Sphere</h3>
+          <p>A growing e-commerce operation spanning Amazon storefront management and global dropshipping solutions.</p>
+          <a href="#contact" class="sub-link">Enquire <i class="fas fa-arrow-right"></i></a>
+        </article>
+
+        <!-- Media -->
+        <article class="sub-card">
+          <div class="sub-icon"><i class="fas fa-rss"></i></div>
+          <div class="sub-tag">Media</div>
+          <h3>Anmmaa Media</h3>
+          <p>A blogging and social media content platform delivering stories, insights, and digital experiences across our markets.</p>
+          <a href="#contact" class="sub-link">Enquire <i class="fas fa-arrow-right"></i></a>
+        </article>
+
+        <!-- Studios -->
+        <article class="sub-card">
+          <div class="sub-icon"><i class="fas fa-film"></i></div>
+          <div class="sub-tag">Creative</div>
+          <h3>Anmmaa Studios</h3>
+          <p>Animation, storytelling, and YouTube content creation — crafting engaging visual narratives for the digital age.</p>
+          <a href="#contact" class="sub-link">Enquire <i class="fas fa-arrow-right"></i></a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-label">Get In Touch</div>
+      <div class="contact-grid">
+        <div class="contact-text">
+          <h2>Let's build something together.</h2>
+          <p>Whether you're looking to partner with one of our subsidiaries or explore opportunities with Anmmaa Group directly, we'd love to hear from you.</p>
+          <div class="contact-items">
+            <div class="contact-item">
+              <i class="fas fa-globe"></i>
+              <div>
+                <strong>Headquarters</strong>
+                <span>Ontario, Canada</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <strong>Anmmaa Designs Office</strong>
+                <span>106 Nasir Cres, Maple, Ontario L6A3B2</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <strong>Phone</strong>
+                <span>+1 (647) 701-6790 &nbsp;·&nbsp; +1 (416) 854-4424</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Email Address" required />
+          </div>
+          <select>
+            <option value="" disabled selected>Select a subsidiary</option>
+            <option>Anmmaa Transport</option>
+            <option>Anmmaa Designs</option>
+            <option>Anmmaa ProClean</option>
+            <option>Anmmaa Sphere</option>
+            <option>Anmmaa Media</option>
+            <option>Anmmaa Studios</option>
+            <option>General Enquiry</option>
+          </select>
+          <textarea rows="5" placeholder="Your message…" required></textarea>
+          <button type="submit" class="btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+          <p id="form-msg" class="form-msg"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="nav-logo">AG</span>
+        <p>Innovating Across Industries</p>
+      </div>
+      <nav class="footer-links">
+        <a href="#about">About</a>
+        <a href="#subsidiaries">Subsidiaries</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="footer-copy">&copy; 2026 Anmmaa Group. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Sticky nav on scroll
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // Form submission
+    function handleSubmit(e) {
+      e.preventDefault();
+      const msg = document.getElementById('form-msg');
+      msg.textContent = '✓ Message sent! We\'ll get back to you shortly.';
+      msg.style.color = '#22c55e';
+      e.target.reset();
+    }
+
+    // Subtle card entrance animation via IntersectionObserver
+    const cards = document.querySelectorAll('.sub-card, .stat, .about-text, .about-stats');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    cards.forEach(c => observer.observe(c));
+  </script>
+</body>
+</html>
