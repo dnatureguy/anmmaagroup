@@ -37,7 +37,22 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* ─── UTILITIES ─────────────────────────────── */
+/* ─── LOGO ───────────────────────────────────── */
+.logo-img {
+  height: 48px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+.logo-img--footer {
+  height: 40px;
+  opacity: 0.85;
+  filter: brightness(1.1);
+}
+
+
 .container {
   max-width: 1160px;
   margin: 0 auto;
